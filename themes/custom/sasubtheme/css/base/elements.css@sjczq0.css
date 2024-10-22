@@ -1,0 +1,1270 @@
+:root {
+  --il-framework--max-width: 900px;
+  --il-framework--fixed-width: 900px;
+  --il-framework--full-width: 900px;
+  --ilorange: #ff5f05 !important;
+  --il-orange:#ff5f05 !important;
+  --il-hero-button-background-color: #ff5f05 !important;
+  --il-focused-button-background-color: #ff5f05 !important;
+  --il-button-background-color:#ff5f05 !important;
+}
+
+.skip-to button:hover, skip-to button:focus {
+border: 2px solid #13294b;       
+}
+
+.header__main-inner .campus a:hover {
+border: 2px solid #13294b !important;
+}
+
+/* in footer */
+.campus-wordmark a:hover  {
+border: 2px solid #ffffff;   
+}
+
+/* in header */
+.campus:hover {
+border: 2px solid #13294b;
+}
+
+il-unit-wordmark .light a:hover {
+padding: 2px;
+border: 2px solid #13294b;      
+}
+
+il-unit-wordmark h1 a {
+padding: 2px;
+border: 2px solid rgba(255, 255,255,0);   
+}
+    
+il-unit-wordmark h1 a:hover, il-unit-wordmark h1 a:focus, il-unit-wordmark .campus a svg:hover {
+padding: 2px;
+border: 2px solid #13294b;   
+}
+
+/*
+il-header a:hover {
+ padding: 2px;
+border: 2px solid #13294b;      
+}
+*/
+
+.il-primary-unit {
+margin-left: 5px;   
+}
+
+.il-primary-unit a {
+padding: 0 2px;
+border: 2px solid #fff;
+margin-left: -5px;
+}
+
+.il-primary-unit a:hover, .il-primary-unit a:focus {
+border: 2px solid #13294b;
+}
+
+.new-campus svg:hover {
+  color: var(--il-orange);
+  border: 2px solid #13294b !important;
+}
+
+.new-campus svg:focus {
+  color: var(--il-orange);
+  outline: 2px dashed var(--il-orange);
+  border: 2px solid #13294b !important;
+}
+
+/* footer menu ’Student Affairs’  */
+a#link-1:hover, a#link-1:focus {
+color: #13294b;  
+background: #ffffff;
+}
+
+footer a:hover, footer a:focus, footer .nav-item  a:hover, footer .nav-item  a:focus, .uofi_address a:hover, .uofi_address a:focus {
+color: #13294b;  
+background: #ffffff;
+}
+
+/* next 4: for link description for social media links in footer */
+.visible-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.visible-hidden:focus {
+    clip: auto;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+    width: auto;
+}
+
+.il-footer-social a {
+    border: 2px solid #13294b;
+}
+
+.il-footer-social a:hover, .il-footer-social a:focus {
+    border: 2px solid #fff;
+}
+
+.il-footer-parent a {
+border: 2px solid #13294b; 
+font-weight: 700;
+font-size: 19px;
+}
+
+.il-footer-parent a:hover, .il-footer-parent a:focus {
+border: 2px solid #fff;
+}
+
+/* for email, phone links in footer */
+.il-footer-contact a:hover, .il-footer-contact a:focus {
+color: #13294b !important;  
+background: #ffffff;   
+}
+/* for the top right eyebrow menu */
+
+.il-links a {
+color: #13294b; 
+border: 2px solid #ffffff;   
+padding: 0 2px;
+}
+
+
+.il-links a:hover, .il-links a:focus {
+border: 2px solid #13294b;
+padding: 0 2px;
+}
+
+
+il-nav-link a, il-nav-section a {
+border: 1px solid var(--il-cloud-1);
+}
+
+.il-subnav a {
+border: 1px solid #ffffff;
+}
+
+il-nav-section a:hover, il-nav-link a:hover, il-nav-link a:focus, .il-subnav a:hover, .il-subnav a:focus {
+border: 1px solid #13294b;
+background: #ffffff;
+color: #13294b;
+}
+
+/* for the sub-footer links */
+il-footer .il-footer-links a:hover, il-footer .il-footer-links a:focus {
+color: #13294b;
+background: #ffffff;
+}
+
+/* for for general pages hover and focus */
+
+a.field--name-field-icon-row-link > div {
+border: 2px solid #f4f4f4; 
+padding: 3px;
+}
+
+a.field--name-field-icon-row-link:hover > div, 
+a.field--name-field-icon-row-link:focus > div {
+border: 2px solid #13294b;   
+}
+
+#block-sasubtheme-sidenavigation li a:hover, 
+#block-sasubtheme-sidenavigation lia:focus {
+color: #ffffff;
+background: #13294b;
+}
+
+.il-content p a:hover,
+.il-content p a:focus,
+.il-content ul li a:hover,
+.il-content ul li a:focus {
+color: #ffffff;
+background: #13294b;
+}
+
+a.il-blue:hover, a.il-blue:focus {
+background: #ffffff !important;
+color: #13294b !important;
+border: 2px solid #13294b;
+}
+
+.directory-container {
+width: 100%;
+max-width: 900px;
+margin: 0 auto;  
+    
+}
+
+.profiles-wrapper > .field--name-field-single-profile {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content:space-between;
+gap: 20px;
+}
+
+/* child of field-items, parent of article */
+.field--name-field-single-profile > .field__item {  
+width: 48%;
+background-color: #eeeeee;
+}
+
+article.profile-wrapper {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+border: 1px solid #000000;
+padding: 20px;
+background-color: #eeeeee;  
+}
+
+.profile-pic {
+width: 180px;
+text-align: left;
+}
+
+.profile-pic img {
+width: 150px;
+height: 180px;
+}
+
+.profile-text {
+flex: 1;  
+}
+
+span.profile-name {
+font-weight: bold;  
+}
+
+.skip-to .h1, .skip-to-h1, .skip-to .h2, .skip-to .h3, .skip-to .label {
+margin: 0; 
+font: 600 1rem/1.3rem var(--il-source-sans);
+}
+
+/* for text links in paragraphs */
+.paragraph--type--rt .field--name-field-rt__body .field__item a:hover, .paragraph--type--rt .field--name-field-rt__body .field__item a:focus,
+.text-formatted a:hover, .text-formatted a:focus, .background--color--white .body a:link:hover, .background--color--white .body a:link:focus {
+background: #13294b;
+color: #fff;
+}
+
+
+
+
+/* for ACES style individual directory entries */
+
+.directory--list__single-wrapper a {
+color: #13294b;
+}
+
+.directory--list__single-wrapper a:hover, .directory--list__single-wrapper a:focus {
+background: #13294b;
+color: #ffffff;
+}
+
+.views-element-container {
+width: 100%;
+/* max-width: var(--il-framework--fixed-width);
+padding: 0 var(--il-content-margin); */
+margin: 0 auto;
+}
+
+.views-element-container h2 {
+max-width: var(--il-framework--fixed-width);
+/* padding: 0 var(--il-content-margin); */
+padding: 0 0;
+line-height: 2rem;
+}
+
+/* this is for the directories staff page  */
+
+.views-row img {
+height: auto; 
+}
+
+.views-row a:hover {
+background: #13294b;
+color: #ffffff;
+}
+
+/* the first is for the SA leadership block on /about/staff, the second is for the office staff */
+#block-views-block-directory-block-1-2 > div > div, #block-views-block-directory-block-2 > div > div {
+width: 100%;
+/* max-width: var(--il-framework--fixed-width); */
+padding: 0 var(--il-content-margin);
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 10px;   
+gap: 20px;
+}
+
+/* the first is for the SA leadership block on /about/staff, the second is for the office staff */
+#block-views-block-directory-block-1-2 .views-row, #block-views-block-directory-block-2 .views-row {
+flex-basis: calc(33% - 14px); 
+min-height: 300px;
+border-bottom: 3px solid #e84a27;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+border-radius: 4px;
+background-clip: padding-box;
+box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+background-color: #e7eef7;
+min-height: 300px;
+padding: 15px 15px 50px 15px;
+width: 100%;
+margin-bottom: 20px;
+}
+
+.directory--list__single-wrapper img {
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+border-radius: 4px;
+background-clip: padding-box;
+width: 100%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+display: block;
+transition: opacity 0.4s;
+transition-timing-function: ease;
+transition-timing-function: ease;
+}
+
+.directory--list__photo img:hover {
+opacity: .5;    
+}
+
+.directory--list__name {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 10px;
+font-weight: bold;
+}
+
+.directory--list__name:hover {
+/* 
+background-color: #13294b;
+color: #ffffff; 
+*/
+}
+
+.directory--list__title {
+font-size: 0.75em;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 10px;
+}
+
+@media (max-width: 980px)  {
+    
+#block-views-block-directory-block-1-2 .views-row {
+flex-basis: 48%;  
+}   
+
+}
+
+@media (max-width: 570px)  {
+    
+#block-views-block-directory-block-1-2 .views-row {
+flex-basis: 100%;  
+}   
+
+}
+
+/* end individual directory entry styles */
+
+
+/* directory bio page styles */
+
+.views-element-container {
+max-width: var(--il-framework--fixed-width);
+padding: 0 var(--il-content-margin);
+margin: 0 auto;
+}
+
+.directory--profile__name__banner {
+  background-color: #e84a27;
+  height: 150px;
+  width: 100%;
+}
+
+h1.directory--profile__name {
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+  padding-top: 38px;
+  padding-left: 10px;
+  margin: 1rem 0 1.25rem;
+}
+
+.row {
+width: 100%;
+max-width: var(--il-framework--fixed-width);
+margin: 0 auto;
+padding: 0 var(--il-content-margin);
+}
+
+.row .columns, .row .column {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.directory-bio-page .large-4 {
+  width: 33.33333%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+/*
+.column, .columns {
+  position: relative;
+  float: left;
+}
+*/
+
+.directory--profile__sidebar {
+float: left;
+}
+
+.directory--profile__sidebar a:hover {
+background: #13294b;
+color: #ffffff;
+}
+
+div.directory--profile__photo img {
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+border-radius: 4px;
+background-clip: padding-box;
+margin-top: -30px;
+padding: 10px;
+background-color: white;
+height: auto;
+}
+
+.directory--profile__roles {
+padding-left: 10px;
+}
+
+.directory--profile__title {
+color: #13294b;
+font-size: 24px;
+}
+
+.directory--profile__email a {
+border-bottom: 1px solid #e84a27;
+color: #444444;
+}
+
+.directory--profile__phone {
+margin-bottom: 8px;
+}
+
+.large-8 {
+width: 66.66667%;
+float: right;
+margin-bottom: 40px;
+}
+
+.directory--profile__bio {
+margin-top: 20px; 
+}
+
+.directory--return_to_directory a {
+font-style: italic;    
+}
+
+@media (max-width: 900px)  {
+    
+.directory--profile__sidebar {
+float: none;
+}  
+
+.directory-bio-page .large-4 {
+display: block;
+width: 50%;
+}
+
+.large-8 {
+width: 100%;
+float: none;
+}
+
+div.directory--profile__photo img {
+width: 100%;
+max-width: 350px;
+}
+
+
+}
+
+@media (max-width: 720px)  {
+    
+h1.directory--profile__name {
+margin: 0rem 0 1.25rem;
+font-size: 38px;
+padding-top: 8px;
+}
+
+.directory-bio-page  .large-4 {
+width: 67%;
+}
+
+
+}
+
+@media (max-width: 570px)  {
+
+.directory-bio-page .large-4 {
+width: 100%;
+}
+
+}
+
+
+/* end directory bio page node styles */
+
+
+
+
+
+/* for images in text fields */
+.paragraph--type--rt .field--name-field-rt__body .field__item img {
+  padding-bottom: 0.625rem;
+  float: right;
+  margin-left: 20px;
+}
+
+
+
+/* styles for news story page */
+
+.news__header--wrapper {
+background-color: #13294b;
+color: white;
+padding-top: 25px;
+padding-bottom: 200px; /* matches amount that image come up from below */
+}
+
+.field--name-field-news-story-image-caption, .caption {
+font-style: italic;
+font-size: .8em;
+line-height: 1.2em;
+margin-top: 8px;
+}
+
+.large-12 {
+width: 100%;
+}
+
+.news-home-link {
+text-align: center; 
+}
+
+.news-home-link a, .news-home-link a:visited {
+font-weight: 500;
+padding: 30px 0 15px;
+font-size: 25px;
+line-height: 30px;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+.news-home-link a:hover, news-home-link a:focus {
+background: #ffffff;
+color: #13294b;
+}
+
+.news-header-title {
+font-size: 36px;
+line-height: 45px;
+font-weight: 400;
+padding: 20px 20px 10px 20px;
+text-align: center;
+color: #ffffff;
+}
+
+.news__social {
+position: relative;
+padding: 20px 0px;
+text-align: center;
+}
+
+article.news-story-page .views-element-container  > div > div {
+display: block;    
+}
+
+.news-content-wrapper {
+margin-top: -200px;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 100px;
+width: 90%;
+}
+
+.news-content-wrapper img {
+width: 100%;
+max-width: fit-content;
+height: auto;
+}
+
+.field--name-field-news-author::before {
+content: "by ";  
+}
+
+.news__social a {
+margin: 0 10px;
+}
+
+@media (max-width: 570px)  {
+    
+.news__header--wrapper {
+padding-bottom: 100px; /* matches amount that image come up from below */
+}    
+
+.news-content-wrapper {
+margin-top: -100px;
+}
+
+.news-header-title {
+font-size: 28px;
+line-height: 35px;
+}
+    
+}
+
+
+/* end styles for news story page */
+
+
+
+/* styles for news items */
+
+.news-item-title a {
+color: #ffffff;  
+}
+
+.news-item-title a:hover, .news-item-title a:focus {
+color: #13294b; 
+background: #ffffff;
+}
+
+#block-views-block-news-story-block-1 > div > div {
+display: flex; 
+flex-wrap: wrap;
+margin-bottom: 10px;   
+gap: 20px;
+}
+
+#block-views-block-news-story-block-1 .views-row {
+flex-basis: calc(33% - 13px); 
+min-height: 300px;
+border-bottom: 3px solid #e84a27;
+/*
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+*/
+background: #13294b;
+background-clip: padding-box;
+box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+/* background-color: rgba(164,181,201,0.2); */
+min-height: 300px;
+/* padding: 15px 15px 50px 15px; */
+width: 100%;
+margin-bottom: 20px;
+}
+
+.news-item-container {
+flex-basis: 33.33%;
+flex-wrap: wrap;
+height: auto;
+}
+
+.news-item-content {
+display: flex;
+flex-direction: column;
+background-color: #13294b;
+-webkit-border-bottom-right-radius: 4px;
+-webkit-border-bottom-left-radius: 4px;
+-moz-border-radius-bottomright: 4px;
+-moz-border-radius-bottomleft: 4px;
+border-bottom-right-radius: 4px;
+border-bottom-left-radius: 4px;
+box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+color: white;
+width: 100%;    
+}
+
+.news-item-top {
+padding: 15px 10px 20px;
+}
+
+.news-item-bottom {
+padding: 15px 10px 20px;
+}
+
+#block-views-block-news-story-block-1 .views-row, .news-item-content  {
+border-radius: 10px;    
+}
+
+.news-item-title {
+color: #ffffff;
+}
+
+.news-item-author {
+color: #ffffff;
+margin-top: 50px;
+}
+
+.news-item-author::before {
+content: "by ";  
+}
+
+@media (max-width: 900px)  {
+    
+#block-views-block-news-story-block-1 .views-row {
+flex-basis: 46%;  
+}   
+
+}
+
+@media (max-width: 670px)  {
+    
+#block-views-block-news-story-block-1 .views-row {
+flex-basis: 100%;  
+}   
+
+}
+
+
+/* end styles for news-items */
+
+
+/* styles for featured news paragraph */
+#news-feature-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas:
+	"newsheader newsheader"
+	"featureimage storytitle"
+	"teaser teaser";
+margin-bottom: 30px;
+}
+
+#newsHeader {
+grid-area: newsheader;
+background: #ff552e;
+color: #ffffff;
+padding: 0 40px;
+}
+
+#newsHeader h1 {
+color: #ffffff;  
+}
+
+#news-feature-image {
+grid-area: featureimage;
+width: 100%;
+}
+
+.field--name-field-news-feature-image {
+height: 100%;  
+}
+    
+#news-feature-image img {
+height: 100%;
+object-fit: cover;
+}
+
+#featured-rectangle {
+display: inline-block;
+padding: 2px 20px;
+background: #1E3877;
+color: #fff;
+font-weight: 700;
+margin-top: 0;
+}
+
+#feature-title {
+grid-area: storytitle;
+padding: 40px;
+}
+
+#feature-title h2 {
+margin-top: 0;
+}
+
+.field--name-field-news-feature-date, .field--name-field-news-category {
+display: inline-block;
+}
+
+#news-teaser {
+grid-area: teaser;
+background: #E8E9EB;
+padding: 20px 40px;
+}
+
+@media all and (max-width: 900px) {
+  #news-feature-container { 
+    grid-template-areas: 
+      "newsheader"
+      "featureimage"
+      "storytitle"
+      "teaser";
+    /* grid-template-rows: 80px 1fr 70px 1fr 70px; */
+    grid-template-columns: 100%;
+ }
+
+}
+
+/* end styles for featured news paragraph */
+
+/* overrides the fixed position total donations bar on the /give page */
+#giving-total-fixed {
+position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+#id-skip-to-menu-4 {
+z-index: 6000;
+}
+
+.icon-image img {
+max-width: 133px;
+height: auto;
+margin-bottom: 35px;
+border: 2px solid #f4f4f4;
+padding: 6px;
+}
+
+.icon-image img:hover, .icon-image img:focus {
+border: 2px solid #13294b;
+background: #dddddd;
+}
+
+div.page-title-wrapper {
+width: 100%;
+max-width: 900px;
+margin: 0 auto; 
+padding: 0px 40px 0px 40px;
+}
+  
+  
+/* styles for bibliographies */
+
+.paragraph--type--bibliography-entry div {
+display: inline;    
+}
+
+.paragraph--type--biblio-entries__wrapper {
+width: 100%;
+max-width: var(--il-framework--fixed-width);
+padding: 0 var(--il-content-margin); 
+margin: 0 auto;   
+}
+
+.paragraph--type--bibliography-entry article {
+margin-bottom: 25px;   
+}
+
+.field--name-field-publication {
+font-style: italic;   
+}
+
+/* end styles for bibliographies */
+
+
+/* styles for pull quotes */
+
+.illiniblue {
+background: #13294b;
+padding: 40px;
+}
+
+.illiniorange {
+background: #ff5f05;
+padding: 40px;
+}
+
+.paragraph--type--quote__wrapper .style1 {
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.paragraph--type--quote__wrapper .style1 > div {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.paragraph--type--quote__wrapper .style2 {
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-family: times-new-roman, serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.paragraph--type--quote__wrapper .style2 > div {
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.paragraph--type--quote__wrapper .style2 > div::before {
+  content: '“'; 
+}
+
+.paragraph--type--quote__wrapper .style2 > div::after {
+  content: '”'; 
+}
+
+.paragraph--type--quote__wrapper .style3 {
+    color: #13294b;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding: 60px;
+    border-top: 2px solid #13294b; 
+    border-bottom: 2px solid #13294b;
+    margin: 40px auto;
+    width: 70%;
+}
+
+/* end styles for pull quotes */
+
+/* styles to reduce excess white space under titles on content pages */
+
+.block-page-title-block h1 {
+margin: 0 0 -1.75rem -1.1rem !important;
+}
+
+.background--color--white {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+/* end styles to reduce excess white space under titles on content pages */
+
+.campus {
+border: 2px solid #fff;
+}
+
+.campus:hover, .campus:focus {
+border: 2px solid #13294b;
+}
+
+@media (max-width: 768px) {
+    
+.il-formatted details {
+padding-left: 0px !important;
+padding-right: 0px !important;    
+}
+
+.il-formatted details summary{
+ margin: 0 !important;   
+}
+
+.il-formatted th, .il-formatted td {
+padding: 1.5625rem .2rem 1.875rem !important;  
+font-size: 1rem !important;
+}
+
+.block-page-title-block h1 {
+  margin: 0 0 -1.75rem -0rem !important;
+}
+
+}
+
+/* for image gallery thumbnails */
+.paragraph--type--image-gallery .field--name-field-image-gallery-img .field__item {
+  height: 200px;
+  flex-basis: 23%;
+}
+
+@media (max-width: 570px) {
+    
+ .paragraph--type--image-gallery .field--name-field-image-gallery-img .field__item {
+  height: 200px;
+  flex-basis: 31%;
+}
+
+}   
+
+/* styles for revised search form that will be accessible without having to alter toolkit.js.  mag glass in search field originally constructed by toolkit, I added it here */
+#whatever {
+position: absolute;
+top: 80px;
+right: 44px;
+}
+
+#whatever form {
+  display: grid;
+  height: 40px;
+  width: 276px;
+  grid-template-columns: auto 60px;
+  gap: 2px;
+  border: 2px solid var(--il-cloud-3);
+  background-color: var(--il-cloud-3);
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+#whatever form input {
+  margin: 0px;
+  padding: 5px;
+  border: 0px none;
+  font: 16px/18px var(--il-font-sans);
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  appearance: none;
+}
+
+#whatever form button {
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+  background-color: white;
+  color: rgb(96, 96, 96);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+button svg {
+  display: block;
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+  width: 20px;
+  height: 20px;
+  fill: currentcolor;
+}
+
+@media(max-width:992px) {
+    #whatever {
+position: absolute;
+top: 0px;
+right: 0px;
+left:0;
+}
+
+#whatever form {
+width: 90%;    
+}
+
+}
+
+/* end styles for revised search form */
+
+
+/* parallax styles */
+
+.parallax {
+text-align: center;
+width: 100%;
+height: 40vh;
+}
+
+.parallax-inner {
+padding-top: 40%;
+padding-bottom: 40%;
+text-align: center;
+}
+
+/* this media query targets iphones only,  */
+@supports (-webkit-touch-callout: none) {
+ .parallax {
+   background-attachment:scroll !important; 
+   margin-bottom: 12px;
+ }
+}
+
+
+/* end parallax styles */
+
+/* for accordions with anchors, this makes the anchor id invisible */
+.field--name-field-accordion-anchor-id {
+display: none;
+}
+
+details:target {
+padding-top: 100px !important;
+}
+
+details:target > summary, a:target {
+border: 3px solid #ff552e; 
+}
+
+summary.field--name-field-accordion-summary {
+  padding: 5px 0 5px 10px !important;
+  font-size: 1rem !important;
+}
+
+.il-formatted details {
+margin-bottom: 0 !important;    
+}
+
+.field--name-field-accordion-body h2 a:hover {
+    color: #fff !important;
+}
+
+
+/* end accordion styles */
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+il-hero h1 {
+  text-shadow: 4px 4px 8px rgb(0, 0, 0) !important;
+}
+
+.background--color--illiniorange, .background--color--illiniorange .il-button {
+  background-color: rgb(255,85,46) !important;
+}
+
+.background--color--illiniorange .il-button:hover {
+  background-color: #ffffff !important;
+  color: rgb(255,85,46) !important;;
+}
+
+.il-formatted table {
+margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 0 auto !important;
+  }
+}
+
+.background--color--illiniblue .il-button:hover, .background--color--illiniblue .il-button:focus, .background--color--bluegradient .il-button:hover, .background--color--bluegradient .il-button:focus {
+color: #13294b !important;
+background: #ffffff;
+}
+
+.background--color--orangegradient .il-button:hover, .background--color--orangegradient .il-button:focus {
+color: #ff5f05 !important;
+background: #ffffff;
+}
+
+.field--name-field-icon-row-link .field--name-field-icon-row-content-text:hover, .field--name-field-icon-row-link .field--name-field-icon-row-content-text:focus {
+background: #13294b !important;
+color: #ffffff !important;
+}
+
+.paragraph--type--calendar a:hover {
+background: #13294b !important;
+color: #ffffff !important;
+}
+
+/* styles added for ILF 4 update compatibility */
+
+@media (min-width: 992px) {
+  .col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 0 auto !important;
+  }
+}
+
+.background--color--illiniblue .il-button:hover, .background--color--illiniblue .il-button:focus, .background--color--bluegradient .il-button:hover, .background--color--bluegradient .il-button:focus {
+color: #13294b !important;
+background: #ffffff;
+}
+
+.background--color--orangegradient .il-button:hover, .background--color--orangegradient .il-button:focus {
+color: #ff5f05 !important;
+background: #ffffff;
+}
+
+.field--name-field-icon-row-link .field--name-field-icon-row-content-text:hover, .field--name-field-icon-row-link .field--name-field-icon-row-content-text:focus {
+background: #13294b !important;
+color: #ffffff !important;
+}
+
+.paragraph--type--calendar a:hover {
+background: #13294b !important;
+color: #ffffff !important;
+}
+
+.paragraph--type--icon-row .p-0 {
+padding-bottom: 40px !important;
+padding-top: 30px !important;
+}
+
+.region-footer, .region-content {
+padding: 0 !important;
+}
+
+@media (max-width: 768px) {
+    
+.row {    /* Corrects grid.scss:12  on hero image at mobile size */
+margin-left: 0 !important;
+margin-right: 0 !important;
+}
+
+}
+
+@media (max-width: 992px) {
+    
+.row {    /* Corrects grid.scss:12  on hero image at mobile size */
+margin-left: 0 !important;
+margin-right: 0 !important;
+}
+}
+
+
+@media (min-width: 768px) {
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+}
+
+
+.paragraph--type--rt, .paragraph--type--feature-grouped  {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.paragraph--type--cards {
+margin-top: 30px !important;    
+}
+
+/* end ILF update styles */
+
+
