@@ -78,11 +78,32 @@
 <link rel="stylesheet" media="all" href="https://cdn.toolkit.illinois.edu/2.16/toolkit.css" />
 <link rel="stylesheet" media="all" href="themes/contrib/bootstrap5/css/style.css@sjczq0.css" />
 <link rel="stylesheet" media="print" href="themes/custom/sasubtheme/css/theme/print.css@sjczq0.css" />
+<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
 
     <script src="https://cdn.toolkit.illinois.edu/2.16/toolkit.js"></script>
 
     
 <script src="https://cdn.disability.illinois.edu/skipto.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    df-messenger {
+      z-index: 999;
+      position: fixed;
+      --df-messenger-font-color: #000;
+      --df-messenger-font-family: Google Sans;
+      --df-messenger-chat-background: #f3f6fc;
+      --df-messenger-message-user-background: #d3e3fd;
+      --df-messenger-message-bot-background: #fff;
+      bottom: 0;
+      right: 0;
+      top: 0;
+      width: 350px;
+    }
+  </style>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+
   </head>
     <body class="logged-out simple">
      
@@ -246,6 +267,7 @@
           </il-nav>
    
   </il-header>
+
 
 </header>
 
@@ -605,6 +627,16 @@
 <script src="https://emergency.publicaffairs.illinois.edu/illinois.js" async></script>
 <script src="https://enroll.illinois.edu/ping" async></script>
 <script src="sites/default/files/js/js_xNOGwxWoEmlA7vPAOBtrYlmonnBxW8bi_yHilxs5lm4.js@scope=footer&amp;delta=3&amp;language=en&amp;theme=sasubtheme&amp;include=eJx1jUEKAjEQBD-UkJPvCZNlHKOT9JIeWfb3elMEb0VRUAaYa5UpfkbfWOxHpO7eJzrrdcnQA-tR46ZDizmaeGac78D-d4e2vGHsmDqDqQHBWLJfygfzndkllJEofLbv"></script>
+
+<df-messenger
+  project-id="uiuc-techservices-dti"
+  agent-id="8d158390-eb06-4a93-bddf-d13c4ffa93b9"
+  language-code="en"
+  max-query-length="-1">
+  <df-messenger-chat
+   chat-title="chatbot">
+  </df-messenger-chat>
+</df-messenger>
 
   </body>
 </html>
